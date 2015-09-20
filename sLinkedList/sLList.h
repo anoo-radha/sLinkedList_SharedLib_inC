@@ -4,7 +4,7 @@
 //
 //  Created by Anu on 4/1/15.
 //
-
+//  Header file for the sLList functions
 #ifndef __sLList__LList__
 #define __sLList__LList__
 

@@ -4,7 +4,7 @@
 //
 //  Created by Anu on 4/2/15.
 //
-//Singly linked list to pop values based on index or value
+//  Singly linked list to pop values based on index or value
 
 #include "/usr/include/sLList.h"
 
@@ -23,7 +23,6 @@ int pop_first(llist **head)
     free(*head);
     *head = current;
     return i;
-    
 }
 
 //popping/removing last node

@@ -4,7 +4,7 @@
 //
 //  Created by Anu on 4/1/15.
 //
-//Singly linked list to push values based on index or value
+//  Singly linked list to push values based on index or value
 
 #include "/usr/include/sLList.h"
 

@@ -3,7 +3,7 @@
 //  LList
 //
 //  Created by Anu on 6/18/15.
-//
+//  Testing the sLList application using the shared library libsLList.dylib
 
 #include <stdio.h>
 #include "/usr/include/sLList.h"
