@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		394989D31BAEF824001ECF08 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 394989D21BAEF824001ECF08 /* main.c */; };
+		394989DA1BAEF925001ECF08 /* sLList.c in Sources */ = {isa = PBXBuildFile; fileRef = 394989D91BAEF925001ECF08 /* sLList.c */; };
+		394989DC1BAEF92D001ECF08 /* sLListPop.c in Sources */ = {isa = PBXBuildFile; fileRef = 394989DB1BAEF92D001ECF08 /* sLListPop.c */; };
+		394989DE1BAEF936001ECF08 /* sLListPush.c in Sources */ = {isa = PBXBuildFile; fileRef = 394989DD1BAEF936001ECF08 /* sLListPush.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,10 @@
 
 /* Begin PBXFileReference section */
 		394989CF1BAEF824001ECF08 /* sLinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sLinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
-		394989D21BAEF824001ECF08 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		394989D91BAEF925001ECF08 /* sLList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sLList.c; sourceTree = "<group>"; };
+		394989DB1BAEF92D001ECF08 /* sLListPop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sLListPop.c; sourceTree = "<group>"; };
+		394989DD1BAEF936001ECF08 /* sLListPush.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sLListPush.c; sourceTree = "<group>"; };
+		394989DF1BAEFBC1001ECF08 /* libsLList.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsLList.dylib; path = sLinkedList/libsLList.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +46,7 @@
 		394989C61BAEF824001ECF08 = {
 			isa = PBXGroup;
 			children = (
+				394989DF1BAEFBC1001ECF08 /* libsLList.dylib */,
 				394989D11BAEF824001ECF08 /* sLinkedList */,
 				394989D01BAEF824001ECF08 /* Products */,
 			);
@@ -57,7 +63,9 @@
 		394989D11BAEF824001ECF08 /* sLinkedList */ = {
 			isa = PBXGroup;
 			children = (
-				394989D21BAEF824001ECF08 /* main.c */,
+				394989DB1BAEF92D001ECF08 /* sLListPop.c */,
+				394989DD1BAEF936001ECF08 /* sLListPush.c */,
+				394989D91BAEF925001ECF08 /* sLList.c */,
 			);
 			path = sLinkedList;
 			sourceTree = "<group>";
@@ -118,7 +126,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				394989D31BAEF824001ECF08 /* main.c in Sources */,
+				394989DE1BAEF936001ECF08 /* sLListPush.c in Sources */,
+				394989DA1BAEF925001ECF08 /* sLList.c in Sources */,
+				394989DC1BAEF92D001ECF08 /* sLListPop.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +215,7 @@
 		394989D71BAEF824001ECF08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = /usr/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -212,6 +223,7 @@
 		394989D81BAEF824001ECF08 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = /usr/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -235,6 +247,7 @@
 				394989D81BAEF824001ECF08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
