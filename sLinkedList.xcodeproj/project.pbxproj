@@ -30,6 +30,7 @@
 		394989DB1BAEF92D001ECF08 /* sLListPop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sLListPop.c; sourceTree = "<group>"; };
 		394989DD1BAEF936001ECF08 /* sLListPush.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sLListPush.c; sourceTree = "<group>"; };
 		394989DF1BAEFBC1001ECF08 /* libsLList.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsLList.dylib; path = sLinkedList/libsLList.dylib; sourceTree = "<group>"; };
+		398482E21BAF02DC00AB960F /* sLList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sLList.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				394989DB1BAEF92D001ECF08 /* sLListPop.c */,
+				398482E21BAF02DC00AB960F /* sLList.h */,
 				394989DD1BAEF936001ECF08 /* sLListPush.c */,
 				394989D91BAEF925001ECF08 /* sLList.c */,
 			);
